@@ -1,0 +1,7 @@
+.tmp/
+node_modules/
+bower_components/
+npm_global/
+dist/
+app/
+.idea/

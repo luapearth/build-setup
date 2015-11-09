@@ -1,0 +1,24 @@
+{
+  "name": "mvnode",
+  "description": "",
+  "main": "",
+  "authors": [
+    "John Paul Del Mundo <johnpaul.g.delmundo@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

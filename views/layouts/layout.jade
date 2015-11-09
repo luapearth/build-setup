@@ -1,0 +1,24 @@
+doctype
+html(lang=en)
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Template
+    // build:css(.tmp) styles/main.min.css
+    link(rel='stylesheet', href='styles/main.min.css')
+    // endbuild
+
+  body
+    block site-head
+
+    block scripts
+    // build:js(.) scripts/vendor.js
+    // bower:js
+    script(src='/bower_components/jquery/dist/jquery.js')
+    script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js')
+    // endbower
+    // endbuild
+
+    // build:js(.tmp) scripts/app.min.js
+    script(src='scripts/app.min.js')
+    // endbuild
