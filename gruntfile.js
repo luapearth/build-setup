@@ -204,7 +204,7 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-browser-sync');
 
-  grunt.registerTask('serve', ['wiredep', 'jade', 'sass', 'babel', 'copy:images', 'browerSync:livereload', 'watch']);
+  grunt.registerTask('serve', ['wiredep', 'jade', 'sass', 'babel', 'copy:images', 'browserSync:livereload', 'watch']);
 
   grunt.registerTask('build', [
     'clean',
