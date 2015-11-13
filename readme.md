@@ -10,7 +10,8 @@
 
 #### Build and Develop
 
-Clone the repository `git clone https://github.com/luapearth/build-setup.git`
+1. Clone the repository `git clone https://github.com/luapearth/build-setup.git`
+2. Remove the repository url `git remote remove origin`
 
 * Run `npm install` and `bower install`
 * Run `grunt serve`
