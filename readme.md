@@ -16,3 +16,4 @@
 * Run `npm install` and `bower install`
 * Run `grunt serve`
 * Open web browser and navigate to [http://localhost:9000](http://localhost:9000)
+* Run `grunt build` to build the project for distribution.
